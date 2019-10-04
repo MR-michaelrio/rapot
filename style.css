@@ -1,0 +1,78 @@
+body{
+	font-family: sans-serif;
+  background: orange;
+}
+
+.tulisan_login{
+	text-align: center;
+	
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bold;
+	text-transform: uppercase;
+}
+
+.kotak_login{
+	width: 350px;
+	background: lightpink;
+	transform: translate(6%,30%);
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 20px 20px;
+	box-shadow: 0px 0px 100px 4px #d6d6d6;
+}
+
+label{
+	font-size: 11pt;
+}
+
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+.tombol_login{
+	background: #2aa7e2;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.alert{
+	background: #e44e4e;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	border:1px solid #b32929;
+}
+
+.cek_login input[type = "text"],.cek_login input[type = "password"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	margin-left:469px;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+  }
+  .cek_login input[type = "text"]:focus,.cek_login input[type = "password"]:focus{
+	width: 200px;
+  border-color: #2ecc71;}

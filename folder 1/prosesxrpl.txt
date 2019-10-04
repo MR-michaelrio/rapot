@@ -1,0 +1,118 @@
+<?php 
+if(isset($_POST["submit"]) && $_POST["submit"]!="") {
+$usersCount = count($_POST["nama"]);
+for($i=0;$i<$usersCount;$i++) {
+mysqli_query($conn, "UPDATE xrpl set
+ nama='" . $_POST["nama"][$i] . "'
+, nis='" . $_POST["nis"][$i] . "'
+, semester='" . $_POST["semester"][$i] . "'
+
+
+, agamap='" . $_POST["agamap"][$i] . "'
+, agamapp='" . $_POST["agamapp"][$i] . "'
+, agamak='" . $_POST["agamak"][$i] . "'
+, agamakk='" . $_POST["agamakk"][$i] . "'
+
+
+, pknp='" . $_POST["pknp"][$i] . "'
+, pknpp='" . $_POST["pknpp"][$i] . "'
+, pknk='" . $_POST["pknk"][$i] . "'
+, pknkk='" . $_POST["pknkk"][$i] . "'
+
+, bindop='" . $_POST["bindop"][$i] . "'
+, bindopp='" . $_POST["bindopp"][$i] . "'
+, bindok='" . $_POST["bindok"][$i] . "'
+, bindokk='" . $_POST["bindokk"][$i] . "'
+
+, mtkp='" . $_POST["mtkp"][$i] . "'
+, mtkpp='" . $_POST["mtkpp"][$i] . "'
+, mtkk='" . $_POST["mtkk"][$i] . "'
+,mtkkk='" . $_POST["mtkkk"][$i] . "'
+
+, sjrp='" . $_POST["sjrp"][$i] . "'
+, sjrpp='" . $_POST["sjrpp"][$i] . "'
+, sjrk='" . $_POST["sjrk"][$i] . "'
+,sjrkk='" . $_POST["sjrkk"][$i] . "'
+
+, bingp='" . $_POST["bingp"][$i] . "'
+, bingpp='" . $_POST["bingpp"][$i] . "'
+, bingk='" . $_POST["bingk"][$i] . "'
+,bingkk='" . $_POST["bingkk"][$i] . "'
+
+, sbdp='" . $_POST["sbdp"][$i] . "'
+, sbdpp='" . $_POST["sbdpp"][$i] . "'
+, sbdk='" . $_POST["sbdk"][$i] . "'
+,sbdkk='" . $_POST["sbdkk"][$i] . "'
+
+, orp='" . $_POST["orp"][$i] . "'
+, orpp='" . $_POST["orpp"][$i] . "'
+, ork='" . $_POST["ork"][$i] . "'
+,orkk='" . $_POST["orkk"][$i] . "'
+
+, mandap='" . $_POST["mandap"][$i] . "'
+, mandapp='" . $_POST["mandapp"][$i] . "'
+, mandak='" . $_POST["mandak"][$i] . "'
+,mandakk='" . $_POST["mandakk"][$i] . "'
+
+, bhump='" . $_POST["bhump"][$i] . "'
+, bhumpp='" . $_POST["bhumpp"][$i] . "'
+, bhumk='" . $_POST["bhumk"][$i] . "'
+,bhumkk='" . $_POST["bhumkk"][$i] . "'
+
+, simdigp='" . $_POST["simdigp"][$i] . "'
+, simdigpp='" . $_POST["simdigpp"][$i] . "'
+, simdigk='" . $_POST["simdigk"][$i] . "'
+,simdigkk='" . $_POST["simdigkk"][$i] . "'
+
+, fisikap='" . $_POST["fisikap"][$i] . "'
+, fisikapp='" . $_POST["fisikapp"][$i] . "'
+, fisikak='" . $_POST["fisikak"][$i] . "'
+,fisikakk='" . $_POST["fisikakk"][$i] . "'
+
+, kimiap='" . $_POST["kimiap"][$i] . "'
+, kimiapp='" . $_POST["kimiapp"][$i] . "'
+, kimiak='" . $_POST["kimiak"][$i] . "'
+,kimiakk='" . $_POST["kimiakk"][$i] . "'
+
+, sistekomp='" . $_POST["sistekomp"][$i] . "'
+, sistekompp='" . $_POST["sistekompp"][$i] . "'
+, sistekomk='" . $_POST["sistekomk"][$i] . "'
+,sistekomkk='" . $_POST["sistekomkk"][$i] . "'
+
+, komjardasp='" . $_POST["komjardasp"][$i] . "'
+, komjardaspp='" . $_POST["komjardaspp"][$i] . "'
+, komjardask='" . $_POST["komjardask"][$i] . "'
+,komjardaskk='" . $_POST["komjardaskk"][$i] . "'
+
+, pemrogramanp='" . $_POST["pemrogramanp"][$i] . "'
+, pemrogramanpp='" . $_POST["pemrogramanpp"][$i] . "'
+, pemrogramank='" . $_POST["pemrogramank"][$i] . "'
+,pemrogramankk='" . $_POST["pemrogramankk"][$i] . "'
+
+, desgrafp='" . $_POST["desgrafp"][$i] . "'
+, desgrafpp='" . $_POST["desgrafpp"][$i] . "'
+, desgrafk='" . $_POST["desgrafk"][$i] . "'
+,desgrafkk='" . $_POST["desgrafkk"][$i] . "'
+
+, eskula='" . $_POST["eskula"][$i] . "'
+, nilaieskula='" . $_POST["nilaieskula"][$i] . "'
+, deskripsia='" . $_POST["deskripsia"][$i] . "'
+
+, eskulb='" . $_POST["eskulb"][$i] . "'
+, nilaieskulb='" . $_POST["nilaieskulb"][$i] . "'
+, deskripsib='" . $_POST["deskripsib"][$i] . "'
+
+, ajaib='" . $_POST["ajaib"][$i] . "'
+, nilaieskulc='" . $_POST["nilaieskulc"][$i] . "'
+, deskripsic='" . $_POST["deskripsic"][$i] . "'
+
+, sakit='" . $_POST["sakit"][$i] . "'
+, izin='" . $_POST["izin"][$i] . "'
+, alfa='" . $_POST["alfa"][$i] . "'
+
+
+WHERE id='" . $_POST["id"][$i] . "'");
+}
+header("Location:legerxrpl.php");
+}
+?>

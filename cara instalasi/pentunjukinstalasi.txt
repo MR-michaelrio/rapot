@@ -1,0 +1,17 @@
+pertama extract file remedrapot dixampp
+
+kedua buka xampp
+
+ketiga masuk ke http://localhost/phpmyadmin/
+
+keempat buat database dengan nama dbrapot
+
+kelima masuk kefile database lalu masuk kefile database semua
+
+keenam pilih folder itu untuk dimasukkan ke database dbrapot
+
+ketujuh buka new tab
+
+kedelapan ketik http://localhost/remedrapot
+
+jika berhasil maka instalasi berhasil dilakukan 

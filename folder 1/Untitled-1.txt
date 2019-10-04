@@ -1,0 +1,10 @@
+ $query = "UPDATE rapot SET nama='$nama', nik='$nik', kls='$kls', thn='$thn', bdg='$bdg', pgm='$pgm', kmp='$kmp', agamap='$agamap'
+    , agamak='$agamak', pknp='$pknp', pknk='$pknk', pknkk='$pknkk', bip='$bip', bik='$bik', bipp='$bipp', bikk='$bikk'
+    , mtp='$mtp', mtk='$mtk', mtpp='$mtpp', mtkk='$mtkk', sip='$sip', sipp='$sipp', sik='$sik', sikk='$sikk'
+    , bingp='$bingp' , bingpp='$bingpp', bingk='$bingk', bingkk='$bingkk', sbdp='$sbdp', sbdpp='$sbdpp', sbdk='$sbdk', sbdkk='$sbdkk', orp='$orp'
+    , orpp='$orpp', ork='$ork', orkk='$orkk', mandap='$mandap', mandapp='$mandapp', mandak='$mandak', mandakk='$mandakk', hump='$hump'
+    , humpp='$humpp', humk='$humk', humkk='$humkk', skp='$skp', skpp='$skpp', skk='$skk', skkk='$skkk', fsp='$fsp', fspp='$fspp', fsk='$fsk'
+    , fskk='$fskk', kap='$kap', kap='$kapp', kak='$kak', kakk='$kakk', ssp='$ssp', sspp='$sspp', ssk='$ssk', sskk='$sskk'
+    , kmdasp='$kmdasp', kmdaspp='$kmdaspp', kmdask='$kmdask', kmdaskk='$kmdaskk', pmdp='$pmdp', pmdpp='$pmdpp', pmdk='$pmdk', pmdkk='$pmdkk'
+    , ddgp='$ddgp', ddgpp='$ddgpp', ddgk='$ddgk', ddgkk='$ddgkk', ka='$ka', kb='$kb', kc='$kc', kba='$kba', kbb='$kbb'
+    , kbc='$kbc', ca='$ca', cb='$cb', cc='$cc', sakit='$sakit', izin='$izin', alpha='$alpha' WHERE nama='$id'" ;
